@@ -1,0 +1,97 @@
+# depslib dependency file v1.0
+1463026286 source:c:\users\radwa\desktop\assemble\conversions.cpp
+	"Conversions.h"
+	<sstream>
+	<string>
+	<cstdlib>
+	<iostream>
+	<regex>
+
+1463026297 c:\users\radwa\desktop\assemble\conversions.h
+	<string>
+
+1463029561 source:c:\users\radwa\desktop\assemble\literals.cpp
+	"Literals.h"
+	"Conversions.h"
+	<algorithm>
+	<regex>
+	<string>
+	<iostream>
+	<sstream>
+	<fstream>
+
+1463005140 c:\users\radwa\desktop\assemble\literals.h
+	<string>
+	<vector>
+	<map>
+
+1463031290 source:c:\users\radwa\desktop\assemble\printing.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<string>
+	"Printing.h"
+	<iostream>
+	<fstream>
+	<bits\stdc++.h>
+	<iomanip>
+
+1462961474 c:\users\radwa\desktop\assemble\printing.h
+	<unordered_map>
+
+1462363880 source:c:\users\radwa\desktop\assemble\reading.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<vector>
+	<string>
+	"Reading.h"
+
+1462363880 c:\users\radwa\desktop\assemble\reading.h
+
+1463022024 source:c:\users\radwa\desktop\assemble\addressinformation.cpp
+	"AddressInformation.h"
+	<string>
+	<regex>
+
+1463022038 c:\users\radwa\desktop\assemble\addressinformation.h
+	<string>
+
+1463032072 source:c:\users\radwa\desktop\assemble\main.cpp
+	<iostream>
+	<fstream>
+	<bits\stdc++.h>
+	"Reading.h"
+	"Printing.h"
+	"ObjectCode.h"
+	"AddressInformation.h"
+	<string>
+	<sstream>
+	<vector>
+	<cstdlib>
+	<regex>
+	<map>
+	"Literals.h"
+	"Conversions.h"
+
+1463025988 c:\users\radwa\desktop\assemble\objectcode.h
+	<map>
+	<cmath>
+
+1463032374 source:c:\users\radwa\desktop\assemble\objectcode.cpp
+	<iostream>
+	<fstream>
+	<bits\stdc++.h>
+	"AddressInformation.h"
+	<string>
+	<sstream>
+	<vector>
+	<cstdlib>
+	<regex>
+	<map>
+	"ObjectCode.h"
+	<cmath>
+	"printing.h"
+	"Conversions.h"
+

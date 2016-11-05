@@ -1,0 +1,33 @@
+  Source Program statements with value of LC indicated
+
+001000          start   1000
+001000 menna    lda     #10
+001003          lda     #5
+001006 test    +ldx     menna+5
+00100A tet2    +lda     m-n
+ ****** illegal operand
+00100E test2   +stl     m+h
+001012 m        word    5
+001015 n        word    2
+001018 h        equ     10
+001018 endd     end
+
+>>    e n d    o f   p a s s   1
+
+>>   *****************************************************
+>>    s y m b o l     t a b l e   (values in decimal)
+        name              value     Absol/Reloc
+        ---------------------------------------
+        endd               4120     Relocatable
+        h                    10        Absolute
+        m                  4114     Relocatable
+        test2              4110     Relocatable
+        tet2               4106     Relocatable
+        n                  4117     Relocatable
+        test               4102     Relocatable
+        menna              4096     Relocatable
+>>   *****************************************************
+>>   S t a r t   o f    P a s s   I I 
+>>   A s s e m b l e d    p r o g r a m     l i s t i n g
+ LC           Source Statement                                        code
+001000          start   1000                                                                        

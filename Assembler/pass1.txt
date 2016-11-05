@@ -1,0 +1,10 @@
+         start   1000
+menna    lda     #10
+         lda     #5
+test    +ldx     menna-5
+tet2    +lda     m-n
+test2   +stl     m+h
+m        word    5
+n        word    2
+h        equ     10
+endd     end
